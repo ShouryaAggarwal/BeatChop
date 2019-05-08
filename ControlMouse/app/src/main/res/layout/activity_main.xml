@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.shouryaaggarwal.hp.controlmouse.MainActivity">
+
+    <TextView
+        android:id="@+id/textX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/ip"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter the IP"
+        android:inputType="textPersonName"
+        android:text="xx.xxx.x.xx" />
+
+    <Switch
+        android:id="@+id/connect_switch"
+        android:layout_width="101dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Connect"
+        android:textColor="@android:color/darker_gray" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.shouryaaggarwal.hp.controlmouse.MyButton
+            android:id="@+id/topLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="topLeft"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <com.shouryaaggarwal.hp.controlmouse.MyButton
+            android:id="@+id/top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="top"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <com.shouryaaggarwal.hp.controlmouse.MyButton
+            android:id="@+id/topRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="topRight"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <com.shouryaaggarwal.hp.controlmouse.MyButton
+            android:id="@+id/shoot"
+            android:layout_marginLeft="200dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="shoot" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.shouryaaggarwal.hp.controlmouse.MyButton
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="left"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <Button
+            android:id="@+id/idle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="idle"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <com.shouryaaggarwal.hp.controlmouse.MyButton
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="right"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <com.shouryaaggarwal.hp.controlmouse.MyButton
+            android:id="@+id/reload"
+            android:layout_marginLeft="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="reload" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.shouryaaggarwal.hp.controlmouse.MyButton
+            android:id="@+id/downLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="downLeft"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <com.shouryaaggarwal.hp.controlmouse.MyButton
+            android:id="@+id/down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="down"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <com.shouryaaggarwal.hp.controlmouse.MyButton
+            android:id="@+id/downRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="downRight"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="266dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
